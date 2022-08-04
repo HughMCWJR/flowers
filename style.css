@@ -1,0 +1,23 @@
+#inputs {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 90%;
+    bottom: 0;
+    width: 10%;
+    height: 100%;
+    background-color:#4b5320;
+    color: #ffffff;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    height: 100%;
+}
