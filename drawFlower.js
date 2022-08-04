@@ -19,7 +19,7 @@ const flowerMinimumBaseSize = 25;
 const flowerAngleLimit = Math.PI * 0.3;
 
 const date = new Date();
-//Math.seedrandom(date.getDate().toString() + date.getMonth().toString() + date.getFullYear().toString());
+Math.seedrandom(date.getDate().toString() + date.getMonth().toString() + date.getFullYear().toString());
 
 const maxFlowerRotation = Math.PI * 0.1 + Math.random() * Math.PI * 0.2;
 
@@ -281,3 +281,5 @@ function clearCanvas() {
 function getRandomFlowerColor() {
     return flowerColors[Math.floor(Math.random() * flowerColors.length)];
 }
+
+draw()
